@@ -1,0 +1,46 @@
+{
+  "name": "track-o-matic",
+  "version": "0.1.0",
+  "description": "A bus tracker, but retro.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint *.js lib/",
+    "doc": "jsdoc -c .jsdoc.json *.js lib/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aspyrx/track-o-matic.git"
+  },
+  "keywords": [
+    "bus",
+    "pgh",
+    "pittsburgh",
+    "tracker",
+    "time",
+    "retro",
+    "hardware",
+    "raspberry",
+    "pi",
+    "rpi"
+  ],
+  "contributors": [
+    "Amukta Nayak <apnayak@andrew.cmu.edu>",
+    "Edric Kusuma <ekusuma@andrew.cmu.edu>",
+    "Stanley Zhang <szz@andrew.cmu.edu>",
+    "Tiffany Chiang, <tchiang@andrew.cmu.edu>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aspyrx/track-o-matic/issues"
+  },
+  "homepage": "https://github.com/aspyrx/track-o-matic#readme",
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "jsdoc": "^3.5.5"
+  },
+  "engines": {
+    "node": ">=8.0.0",
+    "npm": ">=3.0.0"
+  }
+}
