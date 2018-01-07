@@ -143,6 +143,7 @@
                 "String": "string",
                 "object": "Object"
             },
+            "requireReturn": false,
             "requireReturnType": true,
             "matchDescription": ".+",
             "requireParamDescription": true,

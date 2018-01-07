@@ -1,10 +1,14 @@
 {
     "opts": {
         "destination": "./doc/",
-        "recurse": true
+        "recurse": true,
+        "access": "all"
     },
     "tags": {
         "allowUnknownTags": false
-    }
+    },
+    "plugins": [
+        "plugins/markdown"
+    ]
 }
 
