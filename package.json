@@ -43,7 +43,5 @@
     "node": ">=8.0.0",
     "npm": ">=3.0.0"
   },
-  "dependencies": {
-    "onoff": "^1.1.9"
-  }
+  "dependencies": {}
 }
