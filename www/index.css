@@ -45,7 +45,7 @@ main > section {
     flex-flow: column nowrap;
 }
 
-.motors > section > div {
+.motors > section > .motor {
     flex: 1;
     display: flex;
     justify-content: center;
@@ -53,7 +53,7 @@ main > section {
     margin: 8px;
 }
 
-.motors > section > div > p {
+.motors > section > .motor > *:first-child {
     margin: 0;
     padding: 0;
     width: 50%;
@@ -61,9 +61,11 @@ main > section {
 
     background-color: #EEE;
     color: black;
+
+    transform: rotate(0deg);
 }
 
-.motors > section > div > p:after {
+.motors > section > .motor > *:first-child:after {
     content: "↑";
     display: block;
     padding-bottom: 100%;
