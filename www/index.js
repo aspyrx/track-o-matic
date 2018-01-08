@@ -100,7 +100,11 @@ function Motors(elems) {
 
             set: function(value) {
                 angles[i] = value;
-                elem.style.transform = 'rotate(' + value / 2048 * 360 + 'deg)';
+
+                var transform = 'rotate(' + value / 2048 * 360 + 'deg)';
+                window.requestAnimationFrame(function() {
+                    elem.style.transform = transform;
+                });
             }
         };
     });
